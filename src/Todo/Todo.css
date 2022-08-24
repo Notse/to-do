@@ -1,0 +1,71 @@
+.section-todo {
+    background-color : rgb(21,32,43);
+    color: #fff;
+    padding: .5rem 0;
+}
+
+.todo-input {
+    background-color: #999;
+    /* max-width: 400rem; */
+    width: 50rem;
+    padding: 1rem 1.2rem;
+    border-radius: 10rem;
+}
+
+.todo-item{
+    position: relative;
+}
+
+.todo-item:nth-child(even) > li{
+    background-color: #e3e3e3;
+}
+
+.item {
+    background-color: #ccc;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #333;
+    color:  rgb(21,32,43);
+}
+
+.item:hover {
+    background-color: #ddd;
+}
+
+
+.btn-delete {
+    width: 4rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-delete:hover {
+    background-color: red;
+}
+
+.btn-submit {
+    background-color: rgb(93, 93, 215);
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.btn-update {
+    width: 4rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 5rem;
+    background-color: rgb(148, 178, 148);
+    border-bottom: 1px solid #333;
+}
+
+.btn-update:hover {
+    background-color: green;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: #888 !important;
+}
